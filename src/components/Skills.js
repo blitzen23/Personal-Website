@@ -42,31 +42,31 @@ const Skills = () => {
         <Tooltip id='my-tooltip' />
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5 w-full px-5'>
           <SiHtml5
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='HTML'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiCss3
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='CSS'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiJavascript
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='JavaScript'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiC
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='C Language'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <FaJava
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Java'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
@@ -74,31 +74,31 @@ const Skills = () => {
         </div>
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
           <SiPython
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Python'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiMicrosoftsqlserver
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='MsSQL'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiMysql
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='MySQL'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiMongodb
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='MongoDB'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiTailwindcss
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Tailwind CSS'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
@@ -106,31 +106,31 @@ const Skills = () => {
         </div>
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
           <SiBootstrap
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Bootstrap'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiJquery
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='JQuery (Basics)'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiReact
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='React.JS'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiNodedotjs
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Node.JS'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiExpress
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Express.JS'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
@@ -138,31 +138,31 @@ const Skills = () => {
         </div>
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
           <SiLaravel
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Laravel'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiAdobephotoshop
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Adobe Photoshop (Basics)'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiVisualstudiocode
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Visual Studio Code'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiPhpmyadmin
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='phpMyAdmin'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiXampp
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='XAMPP'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
@@ -170,13 +170,13 @@ const Skills = () => {
         </div>
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
           <SiFigma
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Figma'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
           <SiGithub
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Github'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'

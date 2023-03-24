@@ -14,12 +14,13 @@ const Home = () => {
         className='aspect-square rounded-full w-8/12 lg:w-6/12 xl:w-2/5'
       ></img>
       <div className='flex flex-col text-textColor gap-y-5 px-5'>
-        <p className='text-2xl xl:text-4xl xl:mt-0 mt-5'>Hello, It's Me</p>
-        <p className='text-2xl xl:text-5xl'>Michael The Hadinata</p>
-        <p className='text-2xl flex flex-row xl:text-3xl'>
+        <p className='text-4xl xl:mt-0 mt-5'>Hello, It's Me</p>
+        <p className='text-5xl'>Michael The Hadinata</p>
+        <p className='text-2xl flex flex-row'>
           And I'm a &nbsp;
+          <span className='block md:hidden whitespace-pre-line'></span>
           <TypeAnimation
-            sequence={['Student', 500, 'Web Developer']}
+            sequence={['Student', 500, 'Software Engineer']}
             wrapper='span'
             repeat={Infinity}
             className='text-mainColor'
