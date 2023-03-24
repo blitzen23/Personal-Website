@@ -13,7 +13,7 @@ const Contact = () => {
       <p className='text-xl text-gray-400 mb-10 mt-2 text-center'>
         Click to directly contact me
       </p>
-      <div className='flex flex-wrap xl:flex-nowrap md:flex-row flex-col justify-center xl:items-center gap-x-12 gap-y-10 px-5 xl:grid xl:grid-cols-3 w-full'>
+      <div className='flex flex-wrap xl:flex-nowrap md:flex-row flex-col justify-center xl:items-center gap-x-12 gap-y-10 px-5 xl:grid xl:grid-cols-3 w-screen'>
         <a
           className='md:w-2/5 xl:w-auto flex flex-col justify-center items-center text-xl bg-primaryBackground rounded-md hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 w-full'
           href='mailto:michaelthe23@gmail.com'
