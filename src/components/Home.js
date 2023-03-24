@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <div
       id='home'
-      className='bg-primaryBackground py-12 flex flex-row justify-center center items-center gap-x-24 font-bold h-[100vh]'
+      className='bg-primaryBackground flex flex-col xl:flex-row justify-center xl:items-center gap-x-24 font-bold min-h-[100vh] gap-y-5 lg:gap-y-0 py-20 xl:px-12 px-10'
     >
       <img
         src={profileImage}
-        className='aspect-square rounded-full w-1/3'
+        className='aspect-square rounded-full w-8/12 lg:w-6/12 xl:w-2/5'
       ></img>
-      <div className='flex flex-col text-textColor gap-y-5'>
-        <p className='text-4xl'>Hello, It's Me</p>
+      <div className='flex flex-col text-textColor gap-y-5 px-5'>
+        <p className='text-4xl xl:mt-0 mt-5'>Hello, It's Me</p>
         <p className='text-5xl'>Michael The Hadinata</p>
         <p className='flex flex-row text-3xl'>
           And I'm a &nbsp;
@@ -26,8 +26,11 @@ const Home = () => {
             speed={{ type: 'keyStrokeDelayInMs', value: 150 }}
           />
         </p>
-        <p className='text-xl font-normal'>
-          I'm a hardworker person interested in Software Engineer.
+        <p className='text-xl font-normal text-gray-400'>
+          Hardworking and passionate job seeker from Bina Nusantara University
+          majoring in Computer Science Global Class with strong organizational
+          skills eager to secure internship of Software Engineer. Ready to help
+          team achieve company goals.
         </p>
         <div className='flex flex-row gap-x-5'>
           <SocialIcon

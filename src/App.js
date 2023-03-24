@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 export default function App() {
   return (
-    <div className='flex flex-col bg-primaryBackground font-poppins'>
+    <div className='flex flex-col bg-primaryBackground font-poppins scroll-smooth'>
       <Navbar />
       <Home />
       <Skills />

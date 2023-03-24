@@ -31,9 +31,12 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='flex flex-col justify-center items-center text-textColor bg-secondBackground gap-y-10 py-10'
+      className='flex flex-col justify-center items-center text-textColor bg-secondBackground transition-all ease-in duration-100 min-h-screen'
     >
       <h1 className='text-5xl font-bold'>My Skills</h1>
+      <p className='text-xl text-gray-400 mb-10 mt-2'>
+        Click or hover to see more details
+      </p>
       <div className='flex flex-col justify-center items-center gap-y-5'>
         <div className='text-[#ccebff] text-3xl'>Programming</div>
         <div className='grid grid-cols-1 justify-center items-center justify-items-center gap-x-10 gap-y-10'>
@@ -183,7 +186,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center items-center gap-y-5'>
+      <div className='flex flex-col justify-center items-center gap-y-5 mt-10'>
         <div className='text-[#ccebff] text-3xl'>Languages</div>
         <div className='grid grid-cols-2 gap-x-10 gap-y-10 font-bold'>
           <Tooltip id='my-tooltip' />
