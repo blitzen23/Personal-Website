@@ -40,7 +40,7 @@ const Skills = () => {
       <div className='flex flex-col justify-center items-center gap-y-10 w-screen'>
         <div className='text-[#ccebff] text-3xl'>Programming</div>
         <Tooltip id='my-tooltip' />
-        <div className='flex flex-row items-center justify-center gap-x-10 w-full px-5'>
+        <div className='flex flex-row items-center justify-center md:gap-x-10 gap-x-6 w-full px-5'>
           <SiHtml5
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
             data-tooltip-content='HTML'
@@ -72,7 +72,7 @@ const Skills = () => {
             data-tooltip-place='top'
           />
         </div>
-        <div className='flex flex-row items-center justify-center gap-x-10 w-full px-5'>
+        <div className='flex flex-row items-center justify-center md:gap-x-10 gap-x-6 w-full px-5'>
           <SiPython
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
             data-tooltip-content='Python'
@@ -104,7 +104,7 @@ const Skills = () => {
             data-tooltip-place='top'
           />
         </div>
-        <div className='flex flex-row items-center justify-center gap-x-10 w-full px-5'>
+        <div className='flex flex-row items-center justify-center md:gap-x-10 gap-x-6 w-full px-5'>
           <SiBootstrap
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
             data-tooltip-content='Bootstrap'
@@ -136,7 +136,7 @@ const Skills = () => {
             data-tooltip-place='top'
           />
         </div>
-        <div className='flex flex-row items-center justify-center gap-x-10 w-full px-5'>
+        <div className='flex flex-row items-center justify-center md:gap-x-10 gap-x-6 w-full px-5'>
           <SiLaravel
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
             data-tooltip-content='Laravel'
@@ -168,7 +168,7 @@ const Skills = () => {
             data-tooltip-place='top'
           />
         </div>
-        <div className='flex flex-row items-center justify-center gap-x-10 w-full px-5'>
+        <div className='flex flex-row items-center justify-center md:gap-x-10 gap-x-6 w-full px-5'>
           <SiFigma
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
             data-tooltip-content='Figma'
@@ -186,7 +186,7 @@ const Skills = () => {
 
       <div className='flex flex-col justify-center items-center gap-y-5 mt-10'>
         <div className='text-[#ccebff] text-3xl'>Languages</div>
-        <div className='grid grid-cols-2 gap-x-10 gap-y-10 font-bold'>
+        <div className='grid grid-cols-2 md:gap-x-10 gap-x-6 gap-y-10 font-bold'>
           <Tooltip id='my-tooltip' />
           <span
             className='aspect-square text-2xl p-2 bg-mainColor rounded-md text-primaryBackground flex justify-center items-center cursor-default w-[48px] hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
