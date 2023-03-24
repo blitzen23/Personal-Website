@@ -17,8 +17,8 @@ const Navbar = () => {
       id='navbar'
       className='w-[100vw] flex flex-row justify-between bg-primaryBackground fixed text-textColor px-10 py-5 z-50'
     >
-      <a href='#' className='text-3xl'>
-        Portfolio.
+      <a href='#' className='text-3xl font-semibold'>
+        MTH.
       </a>
       <div className='hidden md:flex flex-row gap-x-5 text-xl'>
         <a

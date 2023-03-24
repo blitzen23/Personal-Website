@@ -7,9 +7,12 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='flex flex-col justify-center items-center bg-secondBackground text-textColor py-24 gap-y-10'
+      className='flex flex-col justify-center items-center bg-secondBackground text-textColor py-24'
     >
-      <h1 className='text-5xl font-bold'>My Contact</h1>
+      <h1 className='text-5xl font-bold mb-2'>My Contact</h1>
+      <p className='text-xl mb-10 text-gray-400'>
+        Click to directly contact me
+      </p>
       <div className='flex flex-wrap xl:flex-nowrap md:flex-row flex-col justify-center xl:items-center gap-x-12 gap-y-10 px-5 xl:grid xl:grid-cols-3'>
         <a
           className='md:w-2/5 xl:w-auto flex flex-col justify-center items-center text-xl bg-primaryBackground rounded-md hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
