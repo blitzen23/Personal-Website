@@ -31,10 +31,10 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='flex flex-col justify-center items-center text-textColor bg-secondBackground transition-all ease-in duration-100 py-24 w-full px-12'
+      className='flex flex-col justify-center items-center text-textColor bg-secondBackground transition-all ease-in duration-100 py-24 w-screen px-12'
     >
-      <h1 className='text-5xl font-bold'>My Skills</h1>
-      <p className='text-xl text-gray-400 mb-10 mt-2'>
+      <h1 className='text-5xl font-bold text-center'>My Skills</h1>
+      <p className='text-xl text-gray-400 mb-10 mt-2 text-center'>
         Click or hover to see more details
       </p>
       <div className='flex flex-col justify-center items-center gap-y-5'>
