@@ -83,7 +83,7 @@ const Projects = () => {
   return (
     <div
       id='projects'
-      className='flex flex-col justify-center items-center bg-primaryBackground text-textColor py-24'
+      className='flex flex-col justify-center items-center bg-primaryBackground text-textColor py-24 w-full'
     >
       <h1 className='text-5xl font-bold mb-2'>My Projects</h1>
       <p className='text-xl mb-10 text-gray-400'>Click to see more details</p>

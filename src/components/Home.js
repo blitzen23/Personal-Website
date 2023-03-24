@@ -7,19 +7,19 @@ const Home = () => {
   return (
     <div
       id='home'
-      className='bg-primaryBackground flex flex-col xl:flex-row justify-center xl:items-center gap-x-24 font-bold min-h-[100vh] gap-y-5 lg:gap-y-0 py-20 xl:px-12 px-10'
+      className='bg-primaryBackground flex flex-col xl:flex-row justify-center xl:items-center gap-x-24 font-bold min-h-[100vh] gap-y-5 lg:gap-y-0 py-20 xl:px-12 px-5 w-full'
     >
       <img
         src={profileImage}
         className='aspect-square rounded-full w-8/12 lg:w-6/12 xl:w-2/5'
       ></img>
       <div className='flex flex-col text-textColor gap-y-5 px-5'>
-        <p className='text-4xl xl:mt-0 mt-5'>Hello, It's Me</p>
-        <p className='text-5xl'>Michael The Hadinata</p>
-        <p className='flex flex-row text-3xl'>
+        <p className='text-2xl xl:text-4xl xl:mt-0 mt-5'>Hello, It's Me</p>
+        <p className='text-2xl xl:text-5xl'>Michael The Hadinata</p>
+        <p className='text-2xl flex flex-row xl:text-3xl'>
           And I'm a &nbsp;
           <TypeAnimation
-            sequence={['Student', 500, 'Software Engineer']}
+            sequence={['Student', 500, 'Web Developer']}
             wrapper='span'
             repeat={Infinity}
             className='text-mainColor'

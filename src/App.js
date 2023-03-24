@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className='flex flex-col bg-primaryBackground font-poppins scroll-smooth'>
+    <div className='flex flex-col bg-primaryBackground font-poppins scroll-smooth w-full'>
       <Navbar />
       <Home />
       <Skills />
