@@ -31,7 +31,7 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='flex flex-col justify-center items-center text-textColor bg-secondBackground transition-all ease-in duration-100 min-h-screen w-full'
+      className='flex flex-col justify-center items-center text-textColor bg-secondBackground transition-all ease-in duration-100 py-24 w-full'
     >
       <h1 className='text-5xl font-bold'>My Skills</h1>
       <p className='text-xl text-gray-400 mb-10 mt-2'>
