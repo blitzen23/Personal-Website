@@ -26,6 +26,9 @@ import {
   SiMicrosoftexcel,
   SiMicrosoftpowerpoint,
   SiCanva,
+  SiAdobe,
+  SiEclipseche,
+  SiEclipseide,
 } from 'react-icons/si';
 import { RiEnglishInput } from 'react-icons/ri';
 import { Tooltip } from 'react-tooltip';
@@ -208,6 +211,18 @@ const Skills = () => {
           <SiCanva
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Canva'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiAdobe
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Adobe Animate (Basics)'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiEclipseide
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Eclipse'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
