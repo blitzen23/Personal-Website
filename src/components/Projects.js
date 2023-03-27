@@ -42,7 +42,7 @@ const Projects = () => {
     },
     {
       title: 'Opinio',
-      technologies: ['HTML', 'Tailwind CSS', 'Laravel', 'MySQL'],
+      technologies: ['HTML', 'Tailwind CSS', 'JavaScript', 'Laravel', 'MySQL'],
       type: 'Website Application',
       github: ['https://github.com/RyneFerdinand/opinio'],
       link: '',
@@ -62,7 +62,7 @@ const Projects = () => {
     },
     {
       title: 'Kenshin Impact',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Adobe Photoshop'],
       type: 'Website Application',
       github: ['https://github.com/blitzen23/Kenshin-Impact'],
       link: '',
