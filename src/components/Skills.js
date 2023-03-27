@@ -27,8 +27,6 @@ import {
   SiMicrosoftpowerpoint,
   SiCanva,
   SiAdobe,
-  SiEclipseche,
-  SiEclipseide,
 } from 'react-icons/si';
 import { RiEnglishInput } from 'react-icons/ri';
 import { Tooltip } from 'react-tooltip';
@@ -147,82 +145,6 @@ const Skills = () => {
           <SiLaravel
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Laravel'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiAdobephotoshop
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Adobe Photoshop (Basics)'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiVisualstudiocode
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Visual Studio Code'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiPhpmyadmin
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='phpMyAdmin'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiXampp
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='XAMPP'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-        </div>
-        <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
-          <SiFigma
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Figma'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiGithub
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Github'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiMicrosoftword
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Microsoft Word'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiMicrosoftexcel
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Microsoft Excel'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiMicrosoftpowerpoint
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Microsoft PowerPoint'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-        </div>
-        <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
-          <SiCanva
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Canva'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiAdobe
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Adobe Animate (Basics)'
-            data-tooltip-id='my-tooltip'
-            data-tooltip-place='top'
-          />
-          <SiEclipseide
-            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
-            data-tooltip-content='Eclipse'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />

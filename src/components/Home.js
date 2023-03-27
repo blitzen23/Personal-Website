@@ -60,7 +60,7 @@ const Home = () => {
           ></SocialIcon>
         </div>
         <a
-          href='https://drive.google.com/file/d/1eDXn_qZDG_ETxa40iqBd7lRx_X9UhDs-/view?usp=sharing'
+          href='https://drive.google.com/file/d/1-k_E5fxlQmz2cc7BzjaxQvskvlAC_tD3/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='rounded-lg bg-mainColor flex justify-center items-center py-2 px-5 w-40 text-primaryBackground hover:shadow-[0_0_5px_5px_#0ef] transition-all ease-in duration-200'

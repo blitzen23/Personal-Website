@@ -52,7 +52,7 @@ const Projects = () => {
     },
     {
       title: 'ClusterinAja',
-      technologies: ['Figma'],
+      technologies: [],
       type: 'Website Design',
       github: [],
       link: 'https://www.figma.com/file/rDjT91orCLSIXjTczp4r0D/Software-Engineering?node-id=29-1074&t=HYFrcFvsUL0VYUFQ-0',
@@ -62,7 +62,7 @@ const Projects = () => {
     },
     {
       title: 'Kenshin Impact',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Adobe Photoshop'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
       type: 'Website Application',
       github: ['https://github.com/blitzen23/Kenshin-Impact'],
       link: '',
