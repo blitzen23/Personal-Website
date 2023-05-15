@@ -42,7 +42,7 @@ const Skills = () => {
       <p className='text-xl text-gray-400 mb-10 mt-2 text-center'>
         Click or hover to see more details
       </p>
-      <div className='flex flex-col justify-center items-center gap-y-10 w-screen'>
+      <div className='flex flex-col justify-center items-center gap-y-5 w-screen'>
         <div className='text-[#ccebff] text-3xl'>Programming</div>
         <Tooltip id='my-tooltip' />
         <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5 w-full px-5'>
@@ -151,9 +151,61 @@ const Skills = () => {
         </div>
       </div>
 
+      <div className='flex flex-col justify-center items-center gap-y-5 w-screen mt-10'>
+        <div className='text-[#ccebff] text-3xl'>Software</div>
+        <Tooltip id='my-tooltip' />
+        <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5 w-full px-5'>
+          <SiAdobephotoshop
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Adobe Photoshop (Basics)'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiFigma
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Figma'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiMicrosoftword
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Microsoft Word'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiMicrosoftexcel
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Microsoft Excel'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiMicrosoftpowerpoint
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Microsoft PowerPoint'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+        </div>
+
+        <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
+          <SiGithub
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='GitHub'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiVisualstudiocode
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Visual Studio Code'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+        </div>
+      </div>
+
       <div className='flex flex-col justify-center items-center gap-y-5 mt-10'>
         <div className='text-[#ccebff] text-3xl'>Languages</div>
-        <div className='grid grid-cols-2 lg:gap-x-10 gap-x-5  gap-y-10 font-bold'>
+        <div className='grid grid-cols-2 lg:gap-x-10 gap-x-5 gap-y-10 font-bold'>
           <Tooltip id='my-tooltip' />
           <span
             className='aspect-square text-2xl p-2 bg-mainColor rounded-md text-primaryBackground flex justify-center items-center cursor-default w-[48px] hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200'
