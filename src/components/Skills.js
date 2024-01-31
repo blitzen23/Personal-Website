@@ -30,6 +30,9 @@ import {
   SiGo,
   SiDjango,
   SiVuedotjs,
+  SiPostman,
+  SiSourcetree,
+  SiPostgresql,
 } from 'react-icons/si';
 import { RiEnglishInput } from 'react-icons/ri';
 import { Tooltip } from 'react-tooltip';
@@ -176,6 +179,14 @@ const Skills = () => {
             data-tooltip-place='top'
           />
         </div>
+        <div className='flex flex-row items-center justify-center lg:gap-x-10 gap-x-5  w-full px-5'>
+          <SiPostgresql
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='PostgreSQL'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+        </div>
       </div>
 
       <div className='flex flex-col justify-center items-center gap-y-5 w-screen mt-10'>
@@ -224,6 +235,24 @@ const Skills = () => {
           <SiVisualstudiocode
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Visual Studio Code'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiPostman
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Postman'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiSourcetree
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Sourcetree'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiPostgresql
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='PgAdmin'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
