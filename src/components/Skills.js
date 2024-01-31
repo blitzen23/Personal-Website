@@ -27,6 +27,9 @@ import {
   SiMicrosoftpowerpoint,
   SiCanva,
   SiAdobe,
+  SiGo,
+  SiDjango,
+  SiVuedotjs,
 } from 'react-icons/si';
 import { RiEnglishInput } from 'react-icons/ri';
 import { Tooltip } from 'react-tooltip';
@@ -145,6 +148,30 @@ const Skills = () => {
           <SiLaravel
             className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
             data-tooltip-content='Laravel'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiGo
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Go'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiVuedotjs
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Vue.js (Basics)'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiGo
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Gorm'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-place='top'
+          />
+          <SiGo
+            className='aspect-square text-5xl p-2 bg-mainColor rounded-md text-primaryBackground hover:shadow-[0_0_2px_2px_#0ef] transition-all ease-in duration-200 outline-none'
+            data-tooltip-content='Fiber'
             data-tooltip-id='my-tooltip'
             data-tooltip-place='top'
           />
