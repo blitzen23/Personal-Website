@@ -6,6 +6,7 @@ import devConnector from '../assets/dev-connector.png';
 import kenshinImpact from '../assets/kenshin-impact.png';
 import opinio from '../assets/opinio.png';
 import personalWebsite from '../assets/personal-website.png';
+import ecommerceAPI from '../assets/e-commerce-api.jpg';
 
 const Projects = () => {
     const projects = [
@@ -15,7 +16,7 @@ const Projects = () => {
             type: 'API',
             github: ['https://github.com/blitzen23/Evermos-Mini-Project'],
             link: '',
-            image: null,
+            image: ecommerceAPI,
             description:
                 'A simple API for an e-commerce application with the requirements from Evermos Mini Project',
         },
