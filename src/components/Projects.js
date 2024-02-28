@@ -136,7 +136,7 @@ const Projects = () => {
                         >
                             <img
                                 src={project.image}
-                                className='w-full rounded-md object-cover'
+                                className='w-full rounded-md object-cover max-h-[400px]'
                             ></img>
                             <p className='text-3xl md:text-4xl text-mainColor break-normal font-bold cursor-default'>
                                 {project.title}
