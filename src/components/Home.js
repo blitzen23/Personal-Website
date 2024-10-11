@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/DSC_0109_.jpg';
+import profileImage from '../assets/Photo.JPG';
 import { SocialIcon } from 'react-social-icons';
 import { TypeAnimation } from 'react-type-animation';
 
