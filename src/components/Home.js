@@ -20,7 +20,7 @@ const Home = () => {
                     And I'm a &nbsp;
                     <span className='block md:hidden whitespace-pre-line'></span>
                     <TypeAnimation
-                        sequence={['Student', 500, 'Software Engineer']}
+                        sequence={['Undergraduate', 500, 'Software Engineer']}
                         wrapper='span'
                         repeat={Infinity}
                         className='text-mainColor'
