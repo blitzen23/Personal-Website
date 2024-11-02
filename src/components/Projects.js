@@ -75,7 +75,9 @@ const Projects = () => {
         },
         {
             title: 'ClusterinAja',
-            technologies: [],
+            technologies: [
+              'Figma',
+            ],
             type: 'Website Design',
             github: [],
             link: 'https://www.figma.com/file/rDjT91orCLSIXjTczp4r0D/Software-Engineering?node-id=29-1074&t=HYFrcFvsUL0VYUFQ-0',
